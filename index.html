@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav-Bar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="OBMC Logo.png" alt="logo" height="60px" width="60px"> O.B. Montessori Center
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+   </div>
+
+   <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#home-section">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#about-section">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#enroll-section">Enroll</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact Us</a>
+            </li>
+        </ul> 
+
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+    </div>
+</nav>
+
+        <div class="container-fluid mt-auto">
+            <!-- Sample Content-->
+            <div class="container p-5 mt-3 bg-light text-dark">
+                <h3>Home page</h3>
+                <p>At O.B. Montessori Center, we are dedicated to providing a nurturing environment where academic excellence, creativity, and character development flourish.
+                    Explore our innvative programs, designed to prepare students for success in a rapidly changing world.</p>
+            </div>
+        </div>
+   
+        <div class="vertical-layout bg-secondary p-3 mb-3 rounded">
+            <h2>VERTICAL LAYOUT</h2>
+            <form>
+                <!-- Email -->
+                <div class="email mb-3">
+                    <label class="form-label" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+                </div>
+            </form>
+        </div>
+
+
+    <!--MAIN SECTION-->
+    <div class="container">
+        <div class="vertical"></div>
+        <div class="horizontal"></div>
+        <div class="inline"></div>
+        <div class="responsive"></div>
+    </div>
+    <!--END OF MAIN SECTION--> 
+<footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+        © 2024 O.B. Montessori Center
+</footer>
+</body>
+</html>
